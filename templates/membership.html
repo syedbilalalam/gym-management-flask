@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym — Membership</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>PowerFit Gym</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('about') }}">About Us</a>
+      <a href="{{ url_for('membership') }}">Membership</a>
+
+    </nav>
+  </header>
+
+  <section class="page">
+    <h2>Membership Plans</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Basic</h3>
+        <p>Access to gym floor & cardio area.</p>
+        <p class="price">$15 / month</p>
+      </div>
+
+      <div class="card">
+        <h3>Standard</h3>
+        <p>Includes all equipment + group classes.</p>
+        <p class="price">$25 / month</p>
+      </div>
+
+      <div class="card">
+        <h3>Premium</h3>
+        <p>All access + personal trainer sessions.</p>
+        <p class="price">$40 / month</p>
+      </div>
+    </div>
+
+    <h3>Included Services</h3>
+    <ul>
+      <li>Free fitness assessment</li>
+      <li>Workout tracking</li>
+      <li>Member-only events</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 PowerFit Gym — All Rights Reserved</p>
+  </footer>
+</body>
+</html>

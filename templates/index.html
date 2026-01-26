@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym — Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>PowerFit Gym</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('about') }}">About Us</a>
+      <a href="{{ url_for('membership') }}">Membership</a>
+
+    </nav>
+  </header>
+  <section class="image-section">
+  <!-- <img src="PIC.jpg" alt="Gym Image"> -->
+  </section>
+  <section class="hero">
+    <h2>Welcome to Train Smart. Get Stronger.</h2>
+    <p>Your fitness journey starts here — modern equipment, expert trainers, real results.</p>
+    <a class="btn" href="membership.html">View Memberships</a>
+  </section>
+
+  <section class="features">
+    <div>
+      <h3>Modern Equipment</h3>
+      <p>State-of-the-art cardio and strength machines to support every goal.</p>
+    </div>
+    <div>
+      <h3>Certified Trainers</h3>
+      <p>Personal guidance and classes designed for all experience levels.</p>
+    </div>
+    <div>
+      <h3>Flexible Hours</h3>
+      <p>Open early and late so you never miss a workout.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PowerFit Gym — All Rights Reserved</p>
+  </footer>
+</body>
+</html>

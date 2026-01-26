@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PowerFit Gym — About Us</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>PowerFit Gym</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('about') }}">About Us</a>
+      <a href="{{ url_for('membership') }}">Membership</a>
+
+    </nav>
+  </header>
+
+  <section class="page">
+    <h2>Who We Are</h2>
+    <p>
+      PowerFit Gym was founded with one mission: to make fitness accessible,
+      supportive, and results-driven. Our community is built around teamwork,
+      encouragement, and sustainable progress.
+    </p>
+
+    <h3>What We Offer</h3>
+    <ul>
+      <li>Strength & conditioning zones</li>
+      <li>Group classes: HIIT, yoga, spin, Zumba</li>
+      <li>Personal training & nutrition guidance</li>
+      <li>Locker rooms & showers</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 PowerFit Gym — All Rights Reserved</p>
+  </footer>
+</body>
+</html>
